@@ -1,0 +1,158 @@
+h1{
+    margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 10px 0 #232931;
+  font-size: 8rem;
+  color: #2bc08e;
+  text-align: center;
+}
+h2{
+    
+        margin: 30px;
+      font-family: 'Lobster', cursive;
+    
+      font-size: 4 rem;
+      color: #0b7c57;
+      text-align: center;
+    
+}
+h3{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    color: #371fbb;
+    margin-left: 28rem;
+
+
+}
+li{
+    margin: 10px;
+    
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #232931;
+    margin-left: 25rem;
+   
+}
+h4{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #232931;
+    text-align: center;
+
+}
+
+
+.btn{
+
+   margin-left: 50%;
+   padding: 0.5%;
+   border-radius: 0.5rem;
+   border-width: 0rem;
+ 
+
+}
+.btn:hover{
+    background-color: #0b7c57;
+}
+body{
+ 
+    background-color: #bedad8;
+    
+}
+span{
+    color: #701fbb;
+}
+
+@media(max-width:1024px){
+    h1{
+        font-size: 3rem;
+        margin: 30px;
+        text-shadow: 2px 0 #232931;
+
+    }
+    h2{
+        font-size: 2 rem;
+        margin: 30px;
+        text-align: center;
+}
+h3{
+    font-size: 3rem;
+    margin: 30px;
+    text-align: center;
+}
+li{
+    font-size: 2rem;
+    margin-left: 30%;
+}
+    .btn{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:376px)
+{
+    h1{
+        font-size: 2rem;
+        margin: 20px;
+        text-shadow: 1.5px 0 #232931;
+
+    }
+    h2{
+        font-size: 1rem;
+        margin: 20px;
+        text-align: center;
+}
+h3{
+    font-size: 1.2rem;
+    margin: 20px;
+    text-align: center;
+}
+li{
+    font-size: 20px;    
+    margin-left: 5%;
+}
+    .btn{
+        font-size: 1.5rem;
+        margin-left: 10rem;
+    }
+}
+@media(max-width:321px)
+{
+    .btn{
+        font-size: 1rem;
+        margin-left: 4rem;
+        padding: 3%;
+        /* border-width: 1rem; */
+
+    }
+    h4{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    
+}
+@media(max-width:426px)
+{
+    li{
+        font-size: 20px;    
+        margin-left: 2%;
+    }
+    .btn{
+        font-size: 1rem;
+        margin-left: 11rem;
+        padding: 3%;
+        
+
+    }
+    h3{
+        font-size: 1.2rem;
+        margin: 20px;
+        text-align: center;
+    }
+    h4{
+        font-size: 2rem;
+    }
+}
